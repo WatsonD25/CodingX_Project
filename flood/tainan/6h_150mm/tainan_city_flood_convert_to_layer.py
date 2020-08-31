@@ -81,33 +81,33 @@ for i in range(dim_1_pixel_y):
       item=item.append(item[0])
   for item in flood_4:
       item=item.append(item[0])
-  with open("geojson_format_flood1.json","r",encoding="utf-8") as geo1:
+  with open("geojson_format_flood1_6150.json","r",encoding="utf-8") as geo1:
     geojson1 = json.load(geo1)
     for item in flood_1:
       geojson1["features"][0]["geometry"]["coordinates"][0].append(item)
     geojson1=json.dumps(geojson1,indent=4)
-    with open("geojson_format_flood1.json","w",encoding="utf-8") as geo1_1:
+    with open("geojson_format_flood1_6150.json","w",encoding="utf-8") as geo1_1:
       geo1_1.write(geojson1)
-  with open("geojson_format_flood2.json","r",encoding="utf-8") as geo2:
+  with open("geojson_format_flood2_6150.json","r",encoding="utf-8") as geo2:
     geojson2 = json.load(geo2)
     for item in flood_2:
       geojson2["features"][0]["geometry"]["coordinates"][0].append(item)
     geojson2=json.dumps(geojson2,indent=4)
-    with open("geojson_format_flood2.json","w",encoding="utf-8") as geo2_1:
+    with open("geojson_format_flood2_6150.json","w",encoding="utf-8") as geo2_1:
       geo2_1.write(geojson2)
-  with open("geojson_format_flood3.json","r",encoding="utf-8") as geo3:
+  with open("geojson_format_flood3_6150.json","r",encoding="utf-8") as geo3:
     geojson3 = json.load(geo3)
     for item in flood_3:
       geojson3["features"][0]["geometry"]["coordinates"][0].append(item)
     geojson3=json.dumps(geojson3,indent=4)
-    with open("geojson_format_flood3.json","w",encoding="utf-8") as geo3_1:
+    with open("geojson_format_flood3_6150.json","w",encoding="utf-8") as geo3_1:
       geo3_1.write(geojson3)
-  with open("geojson_format_flood4.json","r",encoding="utf-8") as geo4:
+  with open("geojson_format_flood4_6150.json","r",encoding="utf-8") as geo4:
     geojson4 = json.load(geo4)
     for item in flood_4:
       geojson4["features"][0]["geometry"]["coordinates"][0].append(item)
     geojson4=json.dumps(geojson4,indent=4)
-    with open("geojson_format_flood4.json","w",encoding="utf-8") as geo4_1:
+    with open("geojson_format_flood4_6150.json","w",encoding="utf-8") as geo4_1:
       geo4_1.write(geojson4)
 
 
