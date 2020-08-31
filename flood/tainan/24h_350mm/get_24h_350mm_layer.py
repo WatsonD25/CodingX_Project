@@ -39,16 +39,23 @@ print(os.getcwd())
 image_url_1 = "https://dwgis.ncdr.nat.gov.tw/arcgis/services/PotentialFlood3/24H_350mm/MapServer/WMSServer?BBOX="
 image_url_2 = "&WIDTH=915&HEIGHT=722&SIZE=915,722&REQUEST=GetMap&SERVICE=WMS&BGCOLOR=0xFFFFFF&TRANSPARENT=TRUE&SRS=EPSG:3826&LAYERS=0&VERSION=1.1.1&FORMAT=image/png&STYLES="
 
+# four boundary of tainan city
+# 153855.06283333333
+# 2534328.78000002
+# 173963.39616666627
+# 2554701.696666679
+
+
 flag_y=0
-for i in range(150000,352000,18300):
-    x1=str(i)
-    x2=str(i+18300)
+for i in range(153848,173970,9150):
+    x1=str(i+0.8)
+    x2=str(i+0.8+9150)
     flag = 0
-    for j in range (2422000,2800000,14440):
-        y1=str(j)
-        y2=str(j+14440)
+    for j in range (2534327,2554717,7220):
+        y1=str(j+0.5)
+        y2=str(j+0.5+7220)
         image_url = image_url_1+x1+","+y1+","+x2+","+y2+image_url_2
-        print(image_url)
+        # print(image_url)
         r = requests.get(image_url, stream=True)
         # Check if the image was retrieved successfully
         if r.status_code == 200:
@@ -83,7 +90,6 @@ for i in range(150000,352000,18300):
 
 end_time=time.time()
 print("It takes", end_time-start_time, "seconds to run the code.")
-
 
     
 
