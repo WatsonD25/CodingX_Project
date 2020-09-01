@@ -8,7 +8,9 @@ import folium
 # from folium import plugins
 
 main_map = folium.Map(location=[23.000909, 120.223148],zoom_start=12)
-
+tooltip='點擊獲取更多資訊'
+popup=folium.Popup(html='<b>台南市東區大學路1號</b>',max_width=200)
+folium.Marker(location=[22.996319990137735,120.21953003491251],tooktip=tooltip,popup=popup,icon=folium.Icon(color='red')).add_to(main_map)
 #flood
 flood_tainan_6h_150mm=folium.GeoJson(
     "flood_tainan_6h_150mm/geojson_format_flood1_6150.json",
