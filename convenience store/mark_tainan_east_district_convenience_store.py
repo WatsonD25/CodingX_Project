@@ -20,6 +20,10 @@ with open('tainan_east_district_convenience_store.csv', newline='') as csvfile:
 # print(convenience_store)
 
 main_map = folium.Map(location=[23.000909, 120.223148],zoom_start=15)
+tooltip='點擊獲取更多資訊'
+popup=folium.Popup(html='<b>台南市東區大學路1號</b>',max_width=200)
+folium.Marker(location=[22.996319990137735,120.21953003491251],tooktip=tooltip,popup=popup,icon=folium.Icon(color='red')).add_to(main_map)
+
 convenience_store_marker=folium.FeatureGroup('7-11')
 
 for store in convenience_store:
