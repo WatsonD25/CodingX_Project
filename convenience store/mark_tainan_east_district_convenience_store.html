@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_58516684d7764e0bb0a878c8155ebf6b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_58516684d7764e0bb0a878c8155ebf6b" ></div>
+        
+</body>
+<script>    
+    
+            var map_58516684d7764e0bb0a878c8155ebf6b = L.map(
+                "map_58516684d7764e0bb0a878c8155ebf6b",
+                {
+                    center: [23.000909, 120.223148],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bcf81387ec1b46ada9260a5d46fc7efa = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_58516684d7764e0bb0a878c8155ebf6b);
+        
+    
+            var feature_group_c9f49d496caf49d3b9a99b47220e5ea1 = L.featureGroup(
+                {}
+            ).addTo(map_58516684d7764e0bb0a878c8155ebf6b);
+        
+    
+            var marker_bf16f4ebdad04a5987cb0f62435bf990 = L.marker(
+                [22.99700999, 120.23432],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_322e866f14df47d2bdd5d77a4e8cefae = L.popup({"maxWidth": 100});
+
+        
+            var html_86a60658ebf044a49f92739232853d71 = $(`<div id="html_86a60658ebf044a49f92739232853d71" style="width: 100.0%; height: 100.0%;"><b>店名：一心<br><br>地址：台南市東區中華東路一段24號</b></div>`)[0];
+            popup_322e866f14df47d2bdd5d77a4e8cefae.setContent(html_86a60658ebf044a49f92739232853d71);
+        
+
+        marker_bf16f4ebdad04a5987cb0f62435bf990.bindPopup(popup_322e866f14df47d2bdd5d77a4e8cefae)
+        ;
+
+        
+    
+    
+            marker_bf16f4ebdad04a5987cb0f62435bf990.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7e6beeab585408f8544a73deb072f9d = L.marker(
+                [22.96513001, 120.22995],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_3336629bef5c41599d3588d5fa72a82e = L.popup({"maxWidth": 100});
+
+        
+            var html_2b5ba37c77ee47a0bbe082834022b9ac = $(`<div id="html_2b5ba37c77ee47a0bbe082834022b9ac" style="width: 100.0%; height: 100.0%;"><b>店名：力大<br><br>地址：台南市東區生產路508號</b></div>`)[0];
+            popup_3336629bef5c41599d3588d5fa72a82e.setContent(html_2b5ba37c77ee47a0bbe082834022b9ac);
+        
+
+        marker_f7e6beeab585408f8544a73deb072f9d.bindPopup(popup_3336629bef5c41599d3588d5fa72a82e)
+        ;
+
+        
+    
+    
+            marker_f7e6beeab585408f8544a73deb072f9d.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2da76f3f4bcd4c07bfc0c6d65d373db8 = L.marker(
+                [22.98132181, 120.2373732],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_5de74ad37f4441e0ac07880c6b609751 = L.popup({"maxWidth": 100});
+
+        
+            var html_ba2a0e64f2f444edbfde5a8e40628c0d = $(`<div id="html_ba2a0e64f2f444edbfde5a8e40628c0d" style="width: 100.0%; height: 100.0%;"><b>店名：大世紀<br><br>地址：台南市東區自由路三段108號1樓</b></div>`)[0];
+            popup_5de74ad37f4441e0ac07880c6b609751.setContent(html_ba2a0e64f2f444edbfde5a8e40628c0d);
+        
+
+        marker_2da76f3f4bcd4c07bfc0c6d65d373db8.bindPopup(popup_5de74ad37f4441e0ac07880c6b609751)
+        ;
+
+        
+    
+    
+            marker_2da76f3f4bcd4c07bfc0c6d65d373db8.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43f1cf9ff0964cd8941464860bfb1d63 = L.marker(
+                [22.99874001, 120.23074],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_5c29a7064f9a49a6bab46ca6147e3c91 = L.popup({"maxWidth": 100});
+
+        
+            var html_19b92d36adcf46b798cd1d4cdff14dfe = $(`<div id="html_19b92d36adcf46b798cd1d4cdff14dfe" style="width: 100.0%; height: 100.0%;"><b>店名：小東<br><br>地址：台南市東區小東路256號</b></div>`)[0];
+            popup_5c29a7064f9a49a6bab46ca6147e3c91.setContent(html_19b92d36adcf46b798cd1d4cdff14dfe);
+        
+
+        marker_43f1cf9ff0964cd8941464860bfb1d63.bindPopup(popup_5c29a7064f9a49a6bab46ca6147e3c91)
+        ;
+
+        
+    
+    
+            marker_43f1cf9ff0964cd8941464860bfb1d63.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ff9fa957a1642499a73a3cc98e9c77c = L.marker(
+                [22.97545999, 120.23091],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_dc2f473924b3447187ce7d10572bba43 = L.popup({"maxWidth": 100});
+
+        
+            var html_c4bbf4f67da94c3084850a61814e2a96 = $(`<div id="html_c4bbf4f67da94c3084850a61814e2a96" style="width: 100.0%; height: 100.0%;"><b>店名：仁文<br><br>地址：台南市東區仁和路57-7號59號1樓</b></div>`)[0];
+            popup_dc2f473924b3447187ce7d10572bba43.setContent(html_c4bbf4f67da94c3084850a61814e2a96);
+        
+
+        marker_3ff9fa957a1642499a73a3cc98e9c77c.bindPopup(popup_dc2f473924b3447187ce7d10572bba43)
+        ;
+
+        
+    
+    
+            marker_3ff9fa957a1642499a73a3cc98e9c77c.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69c65d0d9ad249f68a9e60674bc9dbdc = L.marker(
+                [22.99631002, 120.21211],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_5ce506246ea64fcd90e8784e7f992992 = L.popup({"maxWidth": 100});
+
+        
+            var html_f7e04747fee949df9b7ca393d56dc2e2 = $(`<div id="html_f7e04747fee949df9b7ca393d56dc2e2" style="width: 100.0%; height: 100.0%;"><b>店名：北門<br><br>地址：台南市東區北門路一段310號</b></div>`)[0];
+            popup_5ce506246ea64fcd90e8784e7f992992.setContent(html_f7e04747fee949df9b7ca393d56dc2e2);
+        
+
+        marker_69c65d0d9ad249f68a9e60674bc9dbdc.bindPopup(popup_5ce506246ea64fcd90e8784e7f992992)
+        ;
+
+        
+    
+    
+            marker_69c65d0d9ad249f68a9e60674bc9dbdc.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a03dcf633ff646dd991ebbb2e4c1df20 = L.marker(
+                [22.96956001, 120.23437],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_416130c4be6647f7b6c56b3945921a2c = L.popup({"maxWidth": 100});
+
+        
+            var html_c1cdb0de396c4777b002648494a39eec = $(`<div id="html_c1cdb0de396c4777b002648494a39eec" style="width: 100.0%; height: 100.0%;"><b>店名：古都<br><br>地址：台南市東區仁和路133號</b></div>`)[0];
+            popup_416130c4be6647f7b6c56b3945921a2c.setContent(html_c1cdb0de396c4777b002648494a39eec);
+        
+
+        marker_a03dcf633ff646dd991ebbb2e4c1df20.bindPopup(popup_416130c4be6647f7b6c56b3945921a2c)
+        ;
+
+        
+    
+    
+            marker_a03dcf633ff646dd991ebbb2e4c1df20.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a81d644ec144a69b8c5ce2b55eec5ca = L.marker(
+                [22.96882001, 120.22765],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_721706f1cb094ec9a1e6e10ebad146c3 = L.popup({"maxWidth": 100});
+
+        
+            var html_6d84ac8ac5494ee8a93c5c76f992bd48 = $(`<div id="html_6d84ac8ac5494ee8a93c5c76f992bd48" style="width: 100.0%; height: 100.0%;"><b>店名：市醫<br><br>地址：台南市東區崇德路685號687號</b></div>`)[0];
+            popup_721706f1cb094ec9a1e6e10ebad146c3.setContent(html_6d84ac8ac5494ee8a93c5c76f992bd48);
+        
+
+        marker_2a81d644ec144a69b8c5ce2b55eec5ca.bindPopup(popup_721706f1cb094ec9a1e6e10ebad146c3)
+        ;
+
+        
+    
+    
+            marker_2a81d644ec144a69b8c5ce2b55eec5ca.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e50d5c920a04b929fe07105584e4184 = L.marker(
+                [22.97726, 120.23437],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_2743634a3a4743ddb5026d02c3045121 = L.popup({"maxWidth": 100});
+
+        
+            var html_3ec09c228c1d45c4977f4813e8e4911e = $(`<div id="html_3ec09c228c1d45c4977f4813e8e4911e" style="width: 100.0%; height: 100.0%;"><b>店名：立東<br><br>地址：台南市東區東門路三段220號</b></div>`)[0];
+            popup_2743634a3a4743ddb5026d02c3045121.setContent(html_3ec09c228c1d45c4977f4813e8e4911e);
+        
+
+        marker_5e50d5c920a04b929fe07105584e4184.bindPopup(popup_2743634a3a4743ddb5026d02c3045121)
+        ;
+
+        
+    
+    
+            marker_5e50d5c920a04b929fe07105584e4184.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae7a50c6c06142d5aa6cb5fa609bfee7 = L.marker(
+                [22.96853, 120.22673],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_22260c7abb7346c29ef9c1398502db6e = L.popup({"maxWidth": 100});
+
+        
+            var html_7095a62288ae40f4ad79eeff1d9328a9 = $(`<div id="html_7095a62288ae40f4ad79eeff1d9328a9" style="width: 100.0%; height: 100.0%;"><b>店名：吉吉好<br><br>地址：台南市東區崇德路670號</b></div>`)[0];
+            popup_22260c7abb7346c29ef9c1398502db6e.setContent(html_7095a62288ae40f4ad79eeff1d9328a9);
+        
+
+        marker_ae7a50c6c06142d5aa6cb5fa609bfee7.bindPopup(popup_22260c7abb7346c29ef9c1398502db6e)
+        ;
+
+        
+    
+    
+            marker_ae7a50c6c06142d5aa6cb5fa609bfee7.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5acbd4fe2024b05856d548ac1f41932 = L.marker(
+                [22.98700008, 120.2296414],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_6f4a8f5827264059a24f1e941decf0ae = L.popup({"maxWidth": 100});
+
+        
+            var html_9ac3e2b084784054a7f91e9393f20a5f = $(`<div id="html_9ac3e2b084784054a7f91e9393f20a5f" style="width: 100.0%; height: 100.0%;"><b>店名：好富<br><br>地址：台南市東區富強里裕農路320號</b></div>`)[0];
+            popup_6f4a8f5827264059a24f1e941decf0ae.setContent(html_9ac3e2b084784054a7f91e9393f20a5f);
+        
+
+        marker_c5acbd4fe2024b05856d548ac1f41932.bindPopup(popup_6f4a8f5827264059a24f1e941decf0ae)
+        ;
+
+        
+    
+    
+            marker_c5acbd4fe2024b05856d548ac1f41932.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b750298a17e44a1a1244ca7d9103d6c = L.marker(
+                [22.99595001, 120.21836],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_cb96a60900fa43f7bb5aeff94f3d6c91 = L.popup({"maxWidth": 100});
+
+        
+            var html_23995cea481747a8901042dd2ce28958 = $(`<div id="html_23995cea481747a8901042dd2ce28958" style="width: 100.0%; height: 100.0%;"><b>店名：成商<br><br>地址：台南市東區大學里勝利路118號1、2樓</b></div>`)[0];
+            popup_cb96a60900fa43f7bb5aeff94f3d6c91.setContent(html_23995cea481747a8901042dd2ce28958);
+        
+
+        marker_6b750298a17e44a1a1244ca7d9103d6c.bindPopup(popup_cb96a60900fa43f7bb5aeff94f3d6c91)
+        ;
+
+        
+    
+    
+            marker_6b750298a17e44a1a1244ca7d9103d6c.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d47b0fe4815a42879c483ab748eafa2b = L.marker(
+                [22.97125001, 120.23747],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_5bcb82b809cc44d5b4dd62061657b4f0 = L.popup({"maxWidth": 100});
+
+        
+            var html_7fe292bc1fd6417ab15c7f452ae2b30f = $(`<div id="html_7fe292bc1fd6417ab15c7f452ae2b30f" style="width: 100.0%; height: 100.0%;"><b>店名：自由<br><br>地址：台南市東區和平里自由路二段37號</b></div>`)[0];
+            popup_5bcb82b809cc44d5b4dd62061657b4f0.setContent(html_7fe292bc1fd6417ab15c7f452ae2b30f);
+        
+
+        marker_d47b0fe4815a42879c483ab748eafa2b.bindPopup(popup_5bcb82b809cc44d5b4dd62061657b4f0)
+        ;
+
+        
+    
+    
+            marker_d47b0fe4815a42879c483ab748eafa2b.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0703f0e586df484e920169f6871cbd86 = L.marker(
+                [22.96533371, 120.2374608],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_8c58759db47c4c46848897e765d52bce = L.popup({"maxWidth": 100});
+
+        
+            var html_f8b9cf1cfdb0492097cf13bf2d0beafe = $(`<div id="html_f8b9cf1cfdb0492097cf13bf2d0beafe" style="width: 100.0%; height: 100.0%;"><b>店名：沐東風<br><br>地址：台南市東區德昌路58號</b></div>`)[0];
+            popup_8c58759db47c4c46848897e765d52bce.setContent(html_f8b9cf1cfdb0492097cf13bf2d0beafe);
+        
+
+        marker_0703f0e586df484e920169f6871cbd86.bindPopup(popup_8c58759db47c4c46848897e765d52bce)
+        ;
+
+        
+    
+    
+            marker_0703f0e586df484e920169f6871cbd86.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91a3dd6d30aa49dfae1736bbbf39b4c7 = L.marker(
+                [22.99768, 120.22714],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_1668fa6c2b71481e82178385587d30be = L.popup({"maxWidth": 100});
+
+        
+            var html_3df72eaeb0e74836a02591c68530529d = $(`<div id="html_3df72eaeb0e74836a02591c68530529d" style="width: 100.0%; height: 100.0%;"><b>店名：東和<br><br>地址：台南市東區東安路291號293號1樓</b></div>`)[0];
+            popup_1668fa6c2b71481e82178385587d30be.setContent(html_3df72eaeb0e74836a02591c68530529d);
+        
+
+        marker_91a3dd6d30aa49dfae1736bbbf39b4c7.bindPopup(popup_1668fa6c2b71481e82178385587d30be)
+        ;
+
+        
+    
+    
+            marker_91a3dd6d30aa49dfae1736bbbf39b4c7.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4626c8cedf54782ab607e43cc36fbcd = L.marker(
+                [22.98258, 120.2309],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_d563cf7dff844b2f941411ba19ac9473 = L.popup({"maxWidth": 100});
+
+        
+            var html_e7b9c25dcbf5480db1e07d929a38d91c = $(`<div id="html_e7b9c25dcbf5480db1e07d929a38d91c" style="width: 100.0%; height: 100.0%;"><b>店名：東城<br><br>地址：台南市東區中華東路二段293號</b></div>`)[0];
+            popup_d563cf7dff844b2f941411ba19ac9473.setContent(html_e7b9c25dcbf5480db1e07d929a38d91c);
+        
+
+        marker_f4626c8cedf54782ab607e43cc36fbcd.bindPopup(popup_d563cf7dff844b2f941411ba19ac9473)
+        ;
+
+        
+    
+    
+            marker_f4626c8cedf54782ab607e43cc36fbcd.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f14efb8c3334bc59bc2568cbea6d03b = L.marker(
+                [22.99344001, 120.22674],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_7fc81775623a4e1490a42e5ae19b87fd = L.popup({"maxWidth": 100});
+
+        
+            var html_9cf630182519443d988c604f9d852a65 = $(`<div id="html_9cf630182519443d988c604f9d852a65" style="width: 100.0%; height: 100.0%;"><b>店名：東凱<br><br>地址：台南市東區東安路102號</b></div>`)[0];
+            popup_7fc81775623a4e1490a42e5ae19b87fd.setContent(html_9cf630182519443d988c604f9d852a65);
+        
+
+        marker_6f14efb8c3334bc59bc2568cbea6d03b.bindPopup(popup_7fc81775623a4e1490a42e5ae19b87fd)
+        ;
+
+        
+    
+    
+            marker_6f14efb8c3334bc59bc2568cbea6d03b.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb59d56c50cb4880af886e85b7152fbf = L.marker(
+                [22.97361002, 120.22136],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_f8e6a7dfbf264c6da87dc863520f18d1 = L.popup({"maxWidth": 100});
+
+        
+            var html_20cd8963f0b24b7688990bb0d7cfbddb = $(`<div id="html_20cd8963f0b24b7688990bb0d7cfbddb" style="width: 100.0%; height: 100.0%;"><b>店名：東發<br><br>地址：台南市東區中華東路三段379號</b></div>`)[0];
+            popup_f8e6a7dfbf264c6da87dc863520f18d1.setContent(html_20cd8963f0b24b7688990bb0d7cfbddb);
+        
+
+        marker_bb59d56c50cb4880af886e85b7152fbf.bindPopup(popup_f8e6a7dfbf264c6da87dc863520f18d1)
+        ;
+
+        
+    
+    
+            marker_bb59d56c50cb4880af886e85b7152fbf.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9a0e256aa114e9b944c6fd841fd689c = L.marker(
+                [22.99475999, 120.23294],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_ec19470380c44996bab4eac16307eb4b = L.popup({"maxWidth": 100});
+
+        
+            var html_3533267cccc94e0ba30fc113cffe7eea = $(`<div id="html_3533267cccc94e0ba30fc113cffe7eea" style="width: 100.0%; height: 100.0%;"><b>店名：東敬<br><br>地址：台南市東區莊敬路90號</b></div>`)[0];
+            popup_ec19470380c44996bab4eac16307eb4b.setContent(html_3533267cccc94e0ba30fc113cffe7eea);
+        
+
+        marker_a9a0e256aa114e9b944c6fd841fd689c.bindPopup(popup_ec19470380c44996bab4eac16307eb4b)
+        ;
+
+        
+    
+    
+            marker_a9a0e256aa114e9b944c6fd841fd689c.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fea204ffbcfa40a4bbbf0f561ccc9ea4 = L.marker(
+                [22.98262002, 120.23486],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_ed24be1f80924d8ba1b55947a31b2cd9 = L.popup({"maxWidth": 100});
+
+        
+            var html_0ab8ac063c1f45c6ade10bd6e3c719c7 = $(`<div id="html_0ab8ac063c1f45c6ade10bd6e3c719c7" style="width: 100.0%; height: 100.0%;"><b>店名：東澓<br><br>地址：台南市東區富農街一段167號1樓</b></div>`)[0];
+            popup_ed24be1f80924d8ba1b55947a31b2cd9.setContent(html_0ab8ac063c1f45c6ade10bd6e3c719c7);
+        
+
+        marker_fea204ffbcfa40a4bbbf0f561ccc9ea4.bindPopup(popup_ed24be1f80924d8ba1b55947a31b2cd9)
+        ;
+
+        
+    
+    
+            marker_fea204ffbcfa40a4bbbf0f561ccc9ea4.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f42d7f33d06c44258494e1689ad1d183 = L.marker(
+                [22.98648999, 120.21853],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_de697331ad5549f59aebe26271c4e4ca = L.popup({"maxWidth": 100});
+
+        
+            var html_eddad1ce14cd419997cb20a2815ff38c = $(`<div id="html_eddad1ce14cd419997cb20a2815ff38c" style="width: 100.0%; height: 100.0%;"><b>店名：東龍<br><br>地址：台南市東區東門路一段362號</b></div>`)[0];
+            popup_de697331ad5549f59aebe26271c4e4ca.setContent(html_eddad1ce14cd419997cb20a2815ff38c);
+        
+
+        marker_f42d7f33d06c44258494e1689ad1d183.bindPopup(popup_de697331ad5549f59aebe26271c4e4ca)
+        ;
+
+        
+    
+    
+            marker_f42d7f33d06c44258494e1689ad1d183.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_791cc8a1e0904d65823b49b098bce3ac = L.marker(
+                [22.99247001, 120.22171],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_f4e6d59c81df4d869966f5c2894682ba = L.popup({"maxWidth": 100});
+
+        
+            var html_c1406d2d559641ebb0a01872770114ac = $(`<div id="html_c1406d2d559641ebb0a01872770114ac" style="width: 100.0%; height: 100.0%;"><b>店名：長寧<br><br>地址：台南市東區長榮路三段12號</b></div>`)[0];
+            popup_f4e6d59c81df4d869966f5c2894682ba.setContent(html_c1406d2d559641ebb0a01872770114ac);
+        
+
+        marker_791cc8a1e0904d65823b49b098bce3ac.bindPopup(popup_f4e6d59c81df4d869966f5c2894682ba)
+        ;
+
+        
+    
+    
+            marker_791cc8a1e0904d65823b49b098bce3ac.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a8b48da80ea44f2bbe220d86f3944ce = L.marker(
+                [22.99585999, 120.2217],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_e69ed3a8a8984917ada2b1fa523f79b7 = L.popup({"maxWidth": 100});
+
+        
+            var html_328b306b22964f3db060c28ee63d46ae = $(`<div id="html_328b306b22964f3db060c28ee63d46ae" style="width: 100.0%; height: 100.0%;"><b>店名：長榮<br><br>地址：台南市東區長榮路三段139號</b></div>`)[0];
+            popup_e69ed3a8a8984917ada2b1fa523f79b7.setContent(html_328b306b22964f3db060c28ee63d46ae);
+        
+
+        marker_3a8b48da80ea44f2bbe220d86f3944ce.bindPopup(popup_e69ed3a8a8984917ada2b1fa523f79b7)
+        ;
+
+        
+    
+    
+            marker_3a8b48da80ea44f2bbe220d86f3944ce.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5a2c454bb0b44668690315c25a69d82 = L.marker(
+                [22.98387999, 120.22324],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_6effd05b563546079f9b593a8ef58ede = L.popup({"maxWidth": 100});
+
+        
+            var html_471193ad14634569817c76031c2ced64 = $(`<div id="html_471193ad14634569817c76031c2ced64" style="width: 100.0%; height: 100.0%;"><b>店名：帝標<br><br>地址：台南市東區龍山街109號111號</b></div>`)[0];
+            popup_6effd05b563546079f9b593a8ef58ede.setContent(html_471193ad14634569817c76031c2ced64);
+        
+
+        marker_f5a2c454bb0b44668690315c25a69d82.bindPopup(popup_6effd05b563546079f9b593a8ef58ede)
+        ;
+
+        
+    
+    
+            marker_f5a2c454bb0b44668690315c25a69d82.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11f98fbcc80b45eb88254e8258d694b4 = L.marker(
+                [22.99769999, 120.21241],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_1943a587e9d64cbc8f20cc60cd8f7a2c = L.popup({"maxWidth": 100});
+
+        
+            var html_aedaf69171fa43c4be9fe83e48542e21 = $(`<div id="html_aedaf69171fa43c4be9fe83e48542e21" style="width: 100.0%; height: 100.0%;"><b>店名：致聖<br><br>地址：台南市東區北門路二段12號</b></div>`)[0];
+            popup_1943a587e9d64cbc8f20cc60cd8f7a2c.setContent(html_aedaf69171fa43c4be9fe83e48542e21);
+        
+
+        marker_11f98fbcc80b45eb88254e8258d694b4.bindPopup(popup_1943a587e9d64cbc8f20cc60cd8f7a2c)
+        ;
+
+        
+    
+    
+            marker_11f98fbcc80b45eb88254e8258d694b4.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cf5a1638a0e4a98a075f9893d4e126e = L.marker(
+                [22.99441001, 120.23439],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_6916bc7ef8eb4fe9b317a8d60b8c039c = L.popup({"maxWidth": 100});
+
+        
+            var html_bf99bc0097ad4c69a9b6660c1da51b22 = $(`<div id="html_bf99bc0097ad4c69a9b6660c1da51b22" style="width: 100.0%; height: 100.0%;"><b>店名：席悅<br><br>地址：台南市東區東光里東興路41號1樓</b></div>`)[0];
+            popup_6916bc7ef8eb4fe9b317a8d60b8c039c.setContent(html_bf99bc0097ad4c69a9b6660c1da51b22);
+        
+
+        marker_9cf5a1638a0e4a98a075f9893d4e126e.bindPopup(popup_6916bc7ef8eb4fe9b317a8d60b8c039c)
+        ;
+
+        
+    
+    
+            marker_9cf5a1638a0e4a98a075f9893d4e126e.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1eee5e6cb4042a9828ba4969b011d19 = L.marker(
+                [22.98500999, 120.233],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_037ad26c77c341a090af5371c5667fc6 = L.popup({"maxWidth": 100});
+
+        
+            var html_666353d0989d4fdea18bd59830d7c936 = $(`<div id="html_666353d0989d4fdea18bd59830d7c936" style="width: 100.0%; height: 100.0%;"><b>店名：財神<br><br>地址：台南市東區中華東路二段171-177號</b></div>`)[0];
+            popup_037ad26c77c341a090af5371c5667fc6.setContent(html_666353d0989d4fdea18bd59830d7c936);
+        
+
+        marker_f1eee5e6cb4042a9828ba4969b011d19.bindPopup(popup_037ad26c77c341a090af5371c5667fc6)
+        ;
+
+        
+    
+    
+            marker_f1eee5e6cb4042a9828ba4969b011d19.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a22bba286b2744b3837d3e7bb270bb5c = L.marker(
+                [22.98205998, 120.21636],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_394378e9cca042238dfeee4427e9657a = L.popup({"maxWidth": 100});
+
+        
+            var html_d4cbb1c275784b12a2bb900ad375aabd = $(`<div id="html_d4cbb1c275784b12a2bb900ad375aabd" style="width: 100.0%; height: 100.0%;"><b>店名：崇明<br><br>地址：台南市東區林森路一段184號</b></div>`)[0];
+            popup_394378e9cca042238dfeee4427e9657a.setContent(html_d4cbb1c275784b12a2bb900ad375aabd);
+        
+
+        marker_a22bba286b2744b3837d3e7bb270bb5c.bindPopup(popup_394378e9cca042238dfeee4427e9657a)
+        ;
+
+        
+    
+    
+            marker_a22bba286b2744b3837d3e7bb270bb5c.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfdbf1bd45ea4192a073af796a0acdd4 = L.marker(
+                [22.97096, 120.22583],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_f885d93c7bb14d6fa8695ae3aac9638d = L.popup({"maxWidth": 100});
+
+        
+            var html_1bd2e043703a46eb90c23f40cd21e25c = $(`<div id="html_1bd2e043703a46eb90c23f40cd21e25c" style="width: 100.0%; height: 100.0%;"><b>店名：崇祐<br><br>地址：台南市東區崇成里崇明路561號1樓</b></div>`)[0];
+            popup_f885d93c7bb14d6fa8695ae3aac9638d.setContent(html_1bd2e043703a46eb90c23f40cd21e25c);
+        
+
+        marker_bfdbf1bd45ea4192a073af796a0acdd4.bindPopup(popup_f885d93c7bb14d6fa8695ae3aac9638d)
+        ;
+
+        
+    
+    
+            marker_bfdbf1bd45ea4192a073af796a0acdd4.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79ac265b07404b86bb25f908b7103946 = L.marker(
+                [22.97852999, 120.22618],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_631f525f34c94b86982337a1baf76175 = L.popup({"maxWidth": 100});
+
+        
+            var html_78d09c6ca402444a89da889b4a9d5634 = $(`<div id="html_78d09c6ca402444a89da889b4a9d5634" style="width: 100.0%; height: 100.0%;"><b>店名：崇華<br><br>地址：台南市東區崇善路259號1樓</b></div>`)[0];
+            popup_631f525f34c94b86982337a1baf76175.setContent(html_78d09c6ca402444a89da889b4a9d5634);
+        
+
+        marker_79ac265b07404b86bb25f908b7103946.bindPopup(popup_631f525f34c94b86982337a1baf76175)
+        ;
+
+        
+    
+    
+            marker_79ac265b07404b86bb25f908b7103946.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dfd7f63f7d3426e87fe4f854e22a1bc = L.marker(
+                [22.97253999, 120.22991],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_a65aacae5ff8495bb704ecf289ba3ab4 = L.popup({"maxWidth": 100});
+
+        
+            var html_f775ef61fba14bf9b938af09b91b47b9 = $(`<div id="html_f775ef61fba14bf9b938af09b91b47b9" style="width: 100.0%; height: 100.0%;"><b>店名：崇道<br><br>地址：台南市東區崇善路571號</b></div>`)[0];
+            popup_a65aacae5ff8495bb704ecf289ba3ab4.setContent(html_f775ef61fba14bf9b938af09b91b47b9);
+        
+
+        marker_1dfd7f63f7d3426e87fe4f854e22a1bc.bindPopup(popup_a65aacae5ff8495bb704ecf289ba3ab4)
+        ;
+
+        
+    
+    
+            marker_1dfd7f63f7d3426e87fe4f854e22a1bc.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ecf4cacb9ea47c79ce86a1f61c6e13d = L.marker(
+                [22.98052999, 120.22321],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_47dfa5f6aa02427da5492dc9e179ee42 = L.popup({"maxWidth": 100});
+
+        
+            var html_f0c2a3ed990647f3ab1b76a6b92b48ff = $(`<div id="html_f0c2a3ed990647f3ab1b76a6b92b48ff" style="width: 100.0%; height: 100.0%;"><b>店名：崇學<br><br>地址：台南市東區崇善路168號</b></div>`)[0];
+            popup_47dfa5f6aa02427da5492dc9e179ee42.setContent(html_f0c2a3ed990647f3ab1b76a6b92b48ff);
+        
+
+        marker_8ecf4cacb9ea47c79ce86a1f61c6e13d.bindPopup(popup_47dfa5f6aa02427da5492dc9e179ee42)
+        ;
+
+        
+    
+    
+            marker_8ecf4cacb9ea47c79ce86a1f61c6e13d.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1338b73546b348c39cb8a13627be5f18 = L.marker(
+                [22.98843002, 120.22729],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_09a8b14774a342659be7d4b51bcaed15 = L.popup({"maxWidth": 100});
+
+        
+            var html_ea780d4ee86e4cd08e54872d1b08ccb9 = $(`<div id="html_ea780d4ee86e4cd08e54872d1b08ccb9" style="width: 100.0%; height: 100.0%;"><b>店名：祥發<br><br>地址：台南市東區裕豐街187號1樓</b></div>`)[0];
+            popup_09a8b14774a342659be7d4b51bcaed15.setContent(html_ea780d4ee86e4cd08e54872d1b08ccb9);
+        
+
+        marker_1338b73546b348c39cb8a13627be5f18.bindPopup(popup_09a8b14774a342659be7d4b51bcaed15)
+        ;
+
+        
+    
+    
+            marker_1338b73546b348c39cb8a13627be5f18.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f207a729cf94da0b562e04c0aafc7b5 = L.marker(
+                [22.99534002, 120.21789],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_7b3ee72069484666a4196059750b1345 = L.popup({"maxWidth": 100});
+
+        
+            var html_79ec6539b21e4493b908e9533a2cf24d = $(`<div id="html_79ec6539b21e4493b908e9533a2cf24d" style="width: 100.0%; height: 100.0%;"><b>店名：勝堉<br><br>地址：台南市東區育樂街1號</b></div>`)[0];
+            popup_7b3ee72069484666a4196059750b1345.setContent(html_79ec6539b21e4493b908e9533a2cf24d);
+        
+
+        marker_7f207a729cf94da0b562e04c0aafc7b5.bindPopup(popup_7b3ee72069484666a4196059750b1345)
+        ;
+
+        
+    
+    
+            marker_7f207a729cf94da0b562e04c0aafc7b5.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ea92ad45c8048fb9bcce59daf6826f4 = L.marker(
+                [22.98878998, 120.23645],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_113f512c382d4b55be32f22d674fdacd = L.popup({"maxWidth": 100});
+
+        
+            var html_17ec03d1e5ae4cd3a5bd56f4f099e803 = $(`<div id="html_17ec03d1e5ae4cd3a5bd56f4f099e803" style="width: 100.0%; height: 100.0%;"><b>店名：富裕<br><br>地址：台南市東區後甲里裕農路657號1樓</b></div>`)[0];
+            popup_113f512c382d4b55be32f22d674fdacd.setContent(html_17ec03d1e5ae4cd3a5bd56f4f099e803);
+        
+
+        marker_8ea92ad45c8048fb9bcce59daf6826f4.bindPopup(popup_113f512c382d4b55be32f22d674fdacd)
+        ;
+
+        
+    
+    
+            marker_8ea92ad45c8048fb9bcce59daf6826f4.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2c3d57c527f4c08aea5719705601c0b = L.marker(
+                [22.98761002, 120.21601],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_03f71576beea4ca1b2824ef456dd70a4 = L.popup({"maxWidth": 100});
+
+        
+            var html_456ef3eebad542838540710f656d3cda = $(`<div id="html_456ef3eebad542838540710f656d3cda" style="width: 100.0%; height: 100.0%;"><b>店名：森田<br><br>地址：台南市東區東門里東門路一段199號</b></div>`)[0];
+            popup_03f71576beea4ca1b2824ef456dd70a4.setContent(html_456ef3eebad542838540710f656d3cda);
+        
+
+        marker_d2c3d57c527f4c08aea5719705601c0b.bindPopup(popup_03f71576beea4ca1b2824ef456dd70a4)
+        ;
+
+        
+    
+    
+            marker_d2c3d57c527f4c08aea5719705601c0b.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3d315717fa34dd1a023c6338b5cfbc7 = L.marker(
+                [22.98702002, 120.2232],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_75b09e3f58e54baa9eef0503e3de6aab = L.popup({"maxWidth": 100});
+
+        
+            var html_4ba90cafa53249d9b49f430b86ff4fdf = $(`<div id="html_4ba90cafa53249d9b49f430b86ff4fdf" style="width: 100.0%; height: 100.0%;"><b>店名：新東<br><br>地址：台南市東區林森路二段84號</b></div>`)[0];
+            popup_75b09e3f58e54baa9eef0503e3de6aab.setContent(html_4ba90cafa53249d9b49f430b86ff4fdf);
+        
+
+        marker_e3d315717fa34dd1a023c6338b5cfbc7.bindPopup(popup_75b09e3f58e54baa9eef0503e3de6aab)
+        ;
+
+        
+    
+    
+            marker_e3d315717fa34dd1a023c6338b5cfbc7.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ab582ffa47c4bc68fee41a643e9a943 = L.marker(
+                [22.99631002, 120.21698],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_34b12c3d15704509a951baf63b83983c = L.popup({"maxWidth": 100});
+
+        
+            var html_f0f017d4bdf2458fb9c9f8a7b224b067 = $(`<div id="html_f0f017d4bdf2458fb9c9f8a7b224b067" style="width: 100.0%; height: 100.0%;"><b>店名：新東育<br><br>地址：台南市東區大學路西段53號1樓2樓</b></div>`)[0];
+            popup_34b12c3d15704509a951baf63b83983c.setContent(html_f0f017d4bdf2458fb9c9f8a7b224b067);
+        
+
+        marker_7ab582ffa47c4bc68fee41a643e9a943.bindPopup(popup_34b12c3d15704509a951baf63b83983c)
+        ;
+
+        
+    
+    
+            marker_7ab582ffa47c4bc68fee41a643e9a943.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01dc3c5cb98e4fbab88dea9fc51de89b = L.marker(
+                [22.98991999, 120.21279],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_3934fcacdc82493da297ede614153084 = L.popup({"maxWidth": 100});
+
+        
+            var html_55ff858c51cc4b5da54a4a788b5f0b7f = $(`<div id="html_55ff858c51cc4b5da54a4a788b5f0b7f" style="width: 100.0%; height: 100.0%;"><b>店名：新新樓<br><br>地址：台南市東區東門里前鋒路16號1樓</b></div>`)[0];
+            popup_3934fcacdc82493da297ede614153084.setContent(html_55ff858c51cc4b5da54a4a788b5f0b7f);
+        
+
+        marker_01dc3c5cb98e4fbab88dea9fc51de89b.bindPopup(popup_3934fcacdc82493da297ede614153084)
+        ;
+
+        
+    
+    
+            marker_01dc3c5cb98e4fbab88dea9fc51de89b.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_841e60dfd70b44a691f094b2101cfdef = L.marker(
+                [22.98456159, 120.2373528],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_52708e1d84684b3c866e2be0f53d6fe5 = L.popup({"maxWidth": 100});
+
+        
+            var html_a45c1e4149b44816b2dceaa94e804ae4 = $(`<div id="html_a45c1e4149b44816b2dceaa94e804ae4" style="width: 100.0%; height: 100.0%;"><b>店名：裕文<br><br>地址：台南市東區裕學路1號</b></div>`)[0];
+            popup_52708e1d84684b3c866e2be0f53d6fe5.setContent(html_a45c1e4149b44816b2dceaa94e804ae4);
+        
+
+        marker_841e60dfd70b44a691f094b2101cfdef.bindPopup(popup_52708e1d84684b3c866e2be0f53d6fe5)
+        ;
+
+        
+    
+    
+            marker_841e60dfd70b44a691f094b2101cfdef.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_184d5edfd13d4861a879756580fefd82 = L.marker(
+                [22.98519, 120.24524],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_44914f692fc44997accfa94fe63336c3 = L.popup({"maxWidth": 100});
+
+        
+            var html_73f94d3f862849b7a8b08237a10897cd = $(`<div id="html_73f94d3f862849b7a8b08237a10897cd" style="width: 100.0%; height: 100.0%;"><b>店名：裕平<br><br>地址：台南市東區關聖里裕信路177號1樓</b></div>`)[0];
+            popup_44914f692fc44997accfa94fe63336c3.setContent(html_73f94d3f862849b7a8b08237a10897cd);
+        
+
+        marker_184d5edfd13d4861a879756580fefd82.bindPopup(popup_44914f692fc44997accfa94fe63336c3)
+        ;
+
+        
+    
+    
+            marker_184d5edfd13d4861a879756580fefd82.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e72bb3d64b5d4bf59fead6aa40f0aa4e = L.marker(
+                [22.98972755, 120.2433807],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_73e87c3405dd4be8b0a78ef8510ad9fa = L.popup({"maxWidth": 100});
+
+        
+            var html_0ddfdde233f2498099146fdde1ff39cf = $(`<div id="html_0ddfdde233f2498099146fdde1ff39cf" style="width: 100.0%; height: 100.0%;"><b>店名：裕孝<br><br>地址：台南市東區裕農路888號1樓</b></div>`)[0];
+            popup_73e87c3405dd4be8b0a78ef8510ad9fa.setContent(html_0ddfdde233f2498099146fdde1ff39cf);
+        
+
+        marker_e72bb3d64b5d4bf59fead6aa40f0aa4e.bindPopup(popup_73e87c3405dd4be8b0a78ef8510ad9fa)
+        ;
+
+        
+    
+    
+            marker_e72bb3d64b5d4bf59fead6aa40f0aa4e.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d59a80d540942cfb713c9dbb4e89e88 = L.marker(
+                [22.97977001, 120.24495],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_d4c8d6b083904e8981f946d01527f27d = L.popup({"maxWidth": 100});
+
+        
+            var html_058cbc0b78104fafa9be83ae4e97a716 = $(`<div id="html_058cbc0b78104fafa9be83ae4e97a716" style="width: 100.0%; height: 100.0%;"><b>店名：裕信<br><br>地址：台南市東區裕信路352號</b></div>`)[0];
+            popup_d4c8d6b083904e8981f946d01527f27d.setContent(html_058cbc0b78104fafa9be83ae4e97a716);
+        
+
+        marker_1d59a80d540942cfb713c9dbb4e89e88.bindPopup(popup_d4c8d6b083904e8981f946d01527f27d)
+        ;
+
+        
+    
+    
+            marker_1d59a80d540942cfb713c9dbb4e89e88.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ef0da1b86bc4c22a49accc28acbafc5 = L.marker(
+                [22.98249999, 120.24165],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_b3c65d37758445928eef9a8a1e244f52 = L.popup({"maxWidth": 100});
+
+        
+            var html_f852a14b42294fb58b3c91101b475eaa = $(`<div id="html_f852a14b42294fb58b3c91101b475eaa" style="width: 100.0%; height: 100.0%;"><b>店名：裕興<br><br>地址：台南市東區復興里裕文路76號1樓</b></div>`)[0];
+            popup_b3c65d37758445928eef9a8a1e244f52.setContent(html_f852a14b42294fb58b3c91101b475eaa);
+        
+
+        marker_7ef0da1b86bc4c22a49accc28acbafc5.bindPopup(popup_b3c65d37758445928eef9a8a1e244f52)
+        ;
+
+        
+    
+    
+            marker_7ef0da1b86bc4c22a49accc28acbafc5.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b5d2bd9e6ce4739ae8b0933612d090a = L.marker(
+                [22.98351999, 120.2264],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_2ea94e5f61714600a649fe355ef9b983 = L.popup({"maxWidth": 100});
+
+        
+            var html_8291078a8d704f8bae0cfc9909d67135 = $(`<div id="html_8291078a8d704f8bae0cfc9909d67135" style="width: 100.0%; height: 100.0%;"><b>店名：裕豐<br><br>地址：台南市東區東門路二段291號</b></div>`)[0];
+            popup_2ea94e5f61714600a649fe355ef9b983.setContent(html_8291078a8d704f8bae0cfc9909d67135);
+        
+
+        marker_0b5d2bd9e6ce4739ae8b0933612d090a.bindPopup(popup_2ea94e5f61714600a649fe355ef9b983)
+        ;
+
+        
+    
+    
+            marker_0b5d2bd9e6ce4739ae8b0933612d090a.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eea9501cf7fe40c3b3123cc2b80f7d0f = L.marker(
+                [22.96188001, 120.23044],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_71e757f523ff4b0aab34b0845d07d015 = L.popup({"maxWidth": 100});
+
+        
+            var html_0b1f009ab6c044f991c4780a2e2ba02f = $(`<div id="html_0b1f009ab6c044f991c4780a2e2ba02f" style="width: 100.0%; height: 100.0%;"><b>店名：鼎亨<br><br>地址：台南市東區德東街101號</b></div>`)[0];
+            popup_71e757f523ff4b0aab34b0845d07d015.setContent(html_0b1f009ab6c044f991c4780a2e2ba02f);
+        
+
+        marker_eea9501cf7fe40c3b3123cc2b80f7d0f.bindPopup(popup_71e757f523ff4b0aab34b0845d07d015)
+        ;
+
+        
+    
+    
+            marker_eea9501cf7fe40c3b3123cc2b80f7d0f.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40504fe141c0430dab3155a3236517ef = L.marker(
+                [22.97458002, 120.21728],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_06827eaa98574108b07b3d6a1bbef083 = L.popup({"maxWidth": 100});
+
+        
+            var html_bab8489ac2f1470ba517a6e9e0651e75 = $(`<div id="html_bab8489ac2f1470ba517a6e9e0651e75" style="width: 100.0%; height: 100.0%;"><b>店名：榮譽<br><br>地址：台南市東區榮譽街86號86-1號1樓</b></div>`)[0];
+            popup_06827eaa98574108b07b3d6a1bbef083.setContent(html_bab8489ac2f1470ba517a6e9e0651e75);
+        
+
+        marker_40504fe141c0430dab3155a3236517ef.bindPopup(popup_06827eaa98574108b07b3d6a1bbef083)
+        ;
+
+        
+    
+    
+            marker_40504fe141c0430dab3155a3236517ef.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66a88c19eb9a440b960d47338bc564ee = L.marker(
+                [22.97512999, 120.22262],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_cf14efe45a9e45229d9c5f77fb4adf6d = L.popup({"maxWidth": 100});
+
+        
+            var html_b60d9d1fccf74c34b3c45dd70a147572 = $(`<div id="html_b60d9d1fccf74c34b3c45dd70a147572" style="width: 100.0%; height: 100.0%;"><b>店名：福耀<br><br>地址：台南市東區崇明路377號377-1號</b></div>`)[0];
+            popup_cf14efe45a9e45229d9c5f77fb4adf6d.setContent(html_b60d9d1fccf74c34b3c45dd70a147572);
+        
+
+        marker_66a88c19eb9a440b960d47338bc564ee.bindPopup(popup_cf14efe45a9e45229d9c5f77fb4adf6d)
+        ;
+
+        
+    
+    
+            marker_66a88c19eb9a440b960d47338bc564ee.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94a84c451a92493ca40e01e0d56ab837 = L.marker(
+                [22.97874, 120.21349],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_fae5e946e22b4ebf9855bd4d0e244579 = L.popup({"maxWidth": 100});
+
+        
+            var html_27a9f9138f6f45e6a59adafad9a15693 = $(`<div id="html_27a9f9138f6f45e6a59adafad9a15693" style="width: 100.0%; height: 100.0%;"><b>店名：億載<br><br>地址：台南市東區大同路二段95-3號</b></div>`)[0];
+            popup_fae5e946e22b4ebf9855bd4d0e244579.setContent(html_27a9f9138f6f45e6a59adafad9a15693);
+        
+
+        marker_94a84c451a92493ca40e01e0d56ab837.bindPopup(popup_fae5e946e22b4ebf9855bd4d0e244579)
+        ;
+
+        
+    
+    
+            marker_94a84c451a92493ca40e01e0d56ab837.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7b1019503904206a8604c85c8686394 = L.marker(
+                [22.97831, 120.22159],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_5c59b190b0d047a395153f524d9316fe = L.popup({"maxWidth": 100});
+
+        
+            var html_7cb68778a0ce4127a835460d09278fdd = $(`<div id="html_7cb68778a0ce4127a835460d09278fdd" style="width: 100.0%; height: 100.0%;"><b>店名：德光<br><br>地址：台南市東區崇德路269號</b></div>`)[0];
+            popup_5c59b190b0d047a395153f524d9316fe.setContent(html_7cb68778a0ce4127a835460d09278fdd);
+        
+
+        marker_c7b1019503904206a8604c85c8686394.bindPopup(popup_5c59b190b0d047a395153f524d9316fe)
+        ;
+
+        
+    
+    
+            marker_c7b1019503904206a8604c85c8686394.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8819af8d31349caa3e6ca4dbf84a697 = L.marker(
+                [22.99111998, 120.21655],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_8360845ebddb4d44b88fb6ae1fbb0eaf = L.popup({"maxWidth": 100});
+
+        
+            var html_4a30af912be8470dadee240c2fd113ed = $(`<div id="html_4a30af912be8470dadee240c2fd113ed" style="width: 100.0%; height: 100.0%;"><b>店名：慶東<br><br>地址：台南市東區青年路416號</b></div>`)[0];
+            popup_8360845ebddb4d44b88fb6ae1fbb0eaf.setContent(html_4a30af912be8470dadee240c2fd113ed);
+        
+
+        marker_f8819af8d31349caa3e6ca4dbf84a697.bindPopup(popup_8360845ebddb4d44b88fb6ae1fbb0eaf)
+        ;
+
+        
+    
+    
+            marker_f8819af8d31349caa3e6ca4dbf84a697.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c47e2f7f4eee4335b93add1ddc62d65e = L.marker(
+                [22.98924001, 120.22533],
+                {}
+            ).addTo(feature_group_c9f49d496caf49d3b9a99b47220e5ea1);
+        
+    
+        var popup_0ab974f8a0f04c3187329dabd5594251 = L.popup({"maxWidth": 100});
+
+        
+            var html_83d1012d76c344e7a7b732cb2e2cc377 = $(`<div id="html_83d1012d76c344e7a7b732cb2e2cc377" style="width: 100.0%; height: 100.0%;"><b>店名：衛國<br><br>地址：台南市東區林森路二段192巷24弄5號.7號</b></div>`)[0];
+            popup_0ab974f8a0f04c3187329dabd5594251.setContent(html_83d1012d76c344e7a7b732cb2e2cc377);
+        
+
+        marker_c47e2f7f4eee4335b93add1ddc62d65e.bindPopup(popup_0ab974f8a0f04c3187329dabd5594251)
+        ;
+
+        
+    
+    
+            marker_c47e2f7f4eee4335b93add1ddc62d65e.bindTooltip(
+                `<div>
+                     點擊獲取更多資訊
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_a8950564cd0246228cd47665c180e7fc = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_bcf81387ec1b46ada9260a5d46fc7efa,
+                },
+                overlays :  {
+                    "7-11" : feature_group_c9f49d496caf49d3b9a99b47220e5ea1,
+                },
+            };
+            L.control.layers(
+                layer_control_a8950564cd0246228cd47665c180e7fc.base_layers,
+                layer_control_a8950564cd0246228cd47665c180e7fc.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_58516684d7764e0bb0a878c8155ebf6b);
+        
+</script>
