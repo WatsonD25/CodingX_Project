@@ -29,18 +29,18 @@ a.add_child(folium.GeoJson(
 soil=folium.GeoJson(
     "geojson_format_green_tainan.json",
     name="土壤液化",
-    style_function=lambda x : {"stroke":True,"fillColor":"green","fillOpacity":1}
+    style_function=lambda x : {"stroke":False,"fillColor":"green","fillOpacity":0.7}
 ).add_to(main_map)
-# soil.add_child(folium.GeoJson(
-#     "geojson_format_yellow_tainan.json",
-#     name="土壤液化",
-#     style_function=lambda x : {"stroke":False,"fillColor":"yellow","fillOpacity":0.5}
-# ))
-# soil.add_child(folium.GeoJson(
-#     "geojson_format_red_tainan.json",
-#     name="土壤液化",
-#     style_function=lambda x : {"stroke":False,"fillColor":"red","fillOpacity":0.5}
-# ))
+soil.add_child(folium.GeoJson(
+    "geojson_format_yellow_tainan.json",
+    name="土壤液化",
+    style_function=lambda x : {"stroke":False,"fillColor":"yellow","fillOpacity":0.7}
+))
+soil.add_child(folium.GeoJson(
+    "geojson_format_red_tainan.json",
+    name="土壤液化",
+    style_function=lambda x : {"stroke":False,"fillColor":"red","fillOpacity":0.7}
+))
 
 #flood
 
