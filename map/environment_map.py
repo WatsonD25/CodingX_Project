@@ -63,7 +63,7 @@ flood_tainan_6h_150mm.add_child(folium.GeoJson(
     name="flood_tainan_6h_150mm",
     style_function=lambda x : {"stroke":False,"fillColor":"#dd2c00","fillOpacity":0.75}
 ))
-flood_tainan_6h_150mm
+
 
 folium.LayerControl().add_to(main_map)
 main_map.save("map_for_environment.html")
