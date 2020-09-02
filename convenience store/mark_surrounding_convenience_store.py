@@ -20,7 +20,7 @@ import folium
 # 如果在DB搜尋時就可以用運算篩選，評估符合效率後可直接運算距離來篩選
 
 target_location=[] # 待傳入
-radius= # 待傳入
+radius= # 待傳入，數值型態
 convenience_store=[[]] # 待傳入
 
 main_map = folium.Map(location=[23.000909, 120.223148],zoom_start=15)
