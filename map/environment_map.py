@@ -51,22 +51,22 @@ folium.Marker(location=[22.996319990137735,120.21953003491251],tooktip=tooltip,p
 flood_tainan_6h_150mm=folium.GeoJson(
     "flood_tainan_6h_150mm/geojson_format_flood1_6150.json",
     name="6小時內下雨150mm之淹水區域",
-    style_function=lambda x : {"stroke":False,"fillColor":"#005cb2","fillOpacity":0.75}
+    style_function=lambda x : {"stroke":False,"fillColor":"#1e88e5","fillOpacity":0.75}
 ).add_to(main_map)
 flood_tainan_6h_150mm.add_child(folium.GeoJson(
     "flood_tainan_6h_150mm/geojson_format_flood2_6150.json",
     name="6小時內下雨150mm之淹水區域",
-    style_function=lambda x : {"stroke":False,"fillColor":"#004ba0","fillOpacity":0.75}
+    style_function=lambda x : {"stroke":False,"fillColor":"#1565c0","fillOpacity":0.75}
 ))
 flood_tainan_6h_150mm.add_child(folium.GeoJson(
     "flood_tainan_6h_150mm/geojson_format_flood3_6150.json",
     name="6小時內下雨150mm之淹水區域",
-    style_function=lambda x : {"stroke":False,"fillColor":"#003c8f","fillOpacity":0.75}
+    style_function=lambda x : {"stroke":False,"fillColor":"#0d47a1","fillOpacity":0.75}
 ))
 flood_tainan_6h_150mm.add_child(folium.GeoJson(
     "flood_tainan_6h_150mm/geojson_format_flood4_6150.json",
     name="6小時內下雨150mm之淹水區域",
-    style_function=lambda x : {"stroke":False,"fillColor":"#002171","fillOpacity":0.75}
+    style_function=lambda x : {"stroke":False,"fillColor":"#022a66","fillOpacity":0.75}
 ))
 
 
