@@ -29,17 +29,20 @@ a.add_child(folium.GeoJson(
 soil=folium.GeoJson(
     "soil_tainan_json/geojson_format_green_tainan.json",
     name="土壤液化",
-    style_function=lambda x : {"stroke":False,"fillColor":"green","fillOpacity":0.7}
+    style_function=lambda x : {"stroke":False,"fillColor":"green","fillOpacity":0.7},
+    tooltip='低潛勢區'
 ).add_to(main_map)
 soil.add_child(folium.GeoJson(
     "soil_tainan_json/geojson_format_yellow_tainan.json",
     name="土壤液化",
-    style_function=lambda x : {"stroke":False,"fillColor":"yellow","fillOpacity":0.7}
+    style_function=lambda x : {"stroke":False,"fillColor":"yellow","fillOpacity":0.7},
+    tooltip='中潛勢區'
 ))
 soil.add_child(folium.GeoJson(
     "soil_tainan_json/geojson_format_red_tainan.json",
     name="土壤液化",
-    style_function=lambda x : {"stroke":False,"fillColor":"red","fillOpacity":0.7}
+    style_function=lambda x : {"stroke":False,"fillColor":"red","fillOpacity":0.7},
+    tooltip='高潛勢區'
 ))
 
 #台南市東區大學路1號
